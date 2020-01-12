@@ -1,0 +1,23 @@
+{
+  "name": "snow-example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:0918nobita/snow-example.git",
+  "author": "0918nobita <nobita.0918@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "serve": "^11.3.0",
+    "snowpack": "^1.0.3",
+    "typescript": "^3.7.4"
+  },
+  "dependencies": {
+    "rxjs": "^6.5.4"
+  },
+  "snowpack": {
+    "webDependencies": [
+      "rxjs",
+      "rxjs/operators"
+    ]
+  }
+}
